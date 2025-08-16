@@ -103,7 +103,7 @@
       "name": "Watermelon Beet Juice",
       "image-url": "/res/img/watermelon-beet-cucumber-parsley-juice.jpg",
       "description": "Refreshing hydration with watermelon sweetness and earthy beet notes.",
-      "price": 6.5,
+      "price": 10.99,
       "category": "smoothies"
     },
     {
@@ -124,7 +124,7 @@
       "name": "Celery Apple Carrot Juice",
       "image-url": "/res/img/celery-apple-and-carrot-juice.jpg",
       "description": "Crunchy vegetable juice with apple sweetness and carrot earthiness.",
-      "price": 6.75,
+      "price": 10.99,
       "category": "smoothies"
     },
     {
@@ -138,7 +138,7 @@
       "name": "Ham Cheese Roll",
       "image-url": "/res/img/ham-and-cheese-roll.jpg",
       "description": "Thinly sliced ham and cheese wrapped in fresh pastry.",
-      "price": 6.95,
+      "price": 34.99,
       "category": "sandwiches"
     },
     {
@@ -159,7 +159,7 @@
       "name": "Melon Mint Celery Juice",
       "image-url": "/res/img/melon-mint-and-celery-juice.jpg",
       "description": "Cooling melon and celery with refreshing mint finish.",
-      "price": 6.25,
+      "price": 10.99,
       "category": "smoothies"
     },
     {
@@ -180,35 +180,28 @@
       "name": "Scrambled Egg Avo Sandwich",
       "image-url": "/res/img/scrambled-egg-avo-and-cherry-tomato-open-sandwich.jpg",
       "description": "Creamy avocado and fluffy eggs on artisan bread.",
-      "price": 8.25,
+      "price": 24.99,
       "category": "sandwiches"
     },
     {
       "name": "Tuna Sandwich",
       "image-url": "/res/img/tuna-sandwich-makeover.jpg",
       "description": "Flaked tuna with crisp celery and light mayo dressing.",
-      "price": 7.95,
+      "price": 24.99,
       "category": "sandwiches"
     },
     {
       "name": "Beet Carrot Apple Juice",
       "image-url": "/res/img/beet-carrot-apple-juice.jpg",
       "description": "Earth-sweet blend of root vegetables with apple crispness.",
-      "price": 6.5,
+      "price": 10.99,
       "category": "smoothies"
     },
     {
       "name": "Chicken Stew",
       "image-url": "/res/img/chicken-stew.jpg",
       "description": "Comforting chicken simmered in herb-infused tomato-based sauce.",
-      "price": 11.25,
-      "category": "main meal"
-    },
-    {
-      "name": "Corn Salsa",
-      "image-url": "/res/img/corn-salsa.jpg",
-      "description": "Sweet corn with peppers, onions, and cilantro lime dressing.",
-      "price": 5.5,
+      "price": 54.99,
       "category": "main meal"
     },
     {
@@ -229,7 +222,7 @@
       "name": "Grilled Peanuts",
       "image-url": "/res/img/grilled-peanuts.jpg",
       "description": "Freshly roasted peanuts with sea salt and smoky flavor.",
-      "price": 4.25,
+      "price": 10.99,
       "category": "main meal"
     },
     {
@@ -257,7 +250,7 @@
       "name": "Peach Carrot Ginger Juice",
       "image-url": "/res/img/peach-carrot-ginger-juice.jpg",
       "description": "Stone fruit sweetness balanced with carrot earthiness and ginger.",
-      "price": 6.95,
+      "price": 10.99,
       "category": "smoothies"
     },
     {
@@ -299,21 +292,21 @@
       "name": "Healthy Cheese Avo Sandwich",
       "image-url": "/res/img/healthy-cheese-and-avo-sandwich.jpg",
       "description": "Sliced avocado with artisan cheese and sprouted bread.",
-      "price": 8.5,
+      "price": 24.99,
       "category": "sandwiches"
     },
     {
       "name": "Healthy Cheese Tomato Sandwich",
       "image-url": "/res/img/healthy-cheese-and-tomato-sandwich.jpg",
       "description": "Vine-ripened tomatoes with fresh mozzarella on ciabatta.",
-      "price": 7.95,
+      "price": 24.99,
       "category": "sandwiches"
     },
     {
       "name": "Nut Mix",
       "image-url": "/res/img/nuts.jpg",
       "description": "Artisanal blend of roasted nuts with sea salt.",
-      "price": 4.95,
+      "price": 14.99,
       "category": "main meal"
     }
   ]
