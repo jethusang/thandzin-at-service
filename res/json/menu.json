@@ -1,0 +1,320 @@
+{
+  "menu": [
+    {
+      "name": "Apple Carrot Ginger Juice",
+      "image-url": "/res/img/apple-carrot-and-ginger-Juice.jpg",
+      "description": "Zesty combination of fruits and root vegetables for immune boosting.",
+      "price": 24.99,
+      "category": "smoothies"
+    },
+    {
+      "name": "Basil Pesto Pasta Salad",
+      "image-url": "/res/img/basil-pesto-pasta-salad.jpg",
+      "description": "Al dente pasta tossed with fresh basil pesto and vegetables.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Beef /Pork /Chicken Stew with Dumplings /Samp/Rice",
+      "image-url": "/res/img/beef-stew-with-dumpling.jpg",
+      "description": "Hearty slow-cooked stew with choice of meat and side",
+      "price": 54.99,
+      "category": "main meal",
+      "options": {
+        "meat": ["Beef", "Pork", "Chicken"],
+        "side": ["Dumplings", "Samp", "Rice"]
+      }
+    },
+    {
+      "name": "Blueberry Chia Smoothie",
+      "image-url": "/res/img/blueberry-chia-smoothie.webp",
+      "description": "Antioxidant-rich berries with omega-packed chia seeds blended creamy.",
+      "price": 24.99,
+      "category": "smoothies"
+    },
+    {
+      "name": "Club Tea Sandwiches",
+      "image-url": "/res/img/club-tea-sandwiches.webp",
+      "description": "Elegant finger sandwiches with layered meats and delicate crusts.",
+      "price": 29.99,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Grilled Meat (Beef/Pork & Wors)",
+      "image-url": "/res/img/grilled-meat.png",
+      "description": "Assorted chargrilled meats with signature sauces and sides",
+      "price": 64.99,
+      "category": "main meal",
+      "options": {
+        "meat": ["Beef", "Pork", "Wors"],
+        "side": ["Pap", "Chakalaka", "Salad"]
+      }
+    },
+    {
+      "name": "Healthy Spinach Salad",
+      "image-url": "/res/img/healthy-spinach-salad-recipe.jpg",
+      "description": "Fresh baby spinach with seasonal vegetables and light vinaigrette.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Mediterranean Couscous",
+      "image-url": "/res/img/mediterranean-couscous-salad.jpg",
+      "description": "Fluffy couscous with sun-dried tomatoes, olives, and feta cheese.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Phuthu And Maas",
+      "image-url": "/res/img/phuthu-and-Maas.jpg",
+      "description": "Traditional African maize meal served with fermented milk sauce.",
+      "price": 24.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Sticky Chicken Wings",
+      "image-url": "/res/img/sticky-chicken-wings-potato.webp",
+      "description": "Crispy wings glazed with sweet-spicy sticky barbecue sauce.",
+      "price": 24.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Amagwinya/ Vetkoek",
+      "image-url": "/res/img/vetkoek-amagwinya.jpg",
+      "description": "Crispy fried fat cakes",
+      "price": 2.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Toasted Cheese Tomato",
+      "image-url": "/res/img/toasted-cheese-and tomato-sandwich.jpg",
+      "description": "Golden grilled sandwich with melted cheese and ripe tomatoes.",
+      "price": 24.99,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Tropical Tumeric Smoothie",
+      "image-url": "/res/img/tropical-turmeric-smoothie.jpg",
+      "description": "Exotic fruit blend with mixed berries and coconut cream.",
+      "price": 27.99,
+      "category": "smoothies"
+    },
+    {
+      "name": "Watermelon Beet Juice",
+      "image-url": "/res/img/watermelon-beet-cucumber-parsley-juice.jpg",
+      "description": "Refreshing hydration with watermelon sweetness and earthy beet notes.",
+      "price": 6.5,
+      "category": "smoothies"
+    },
+    {
+      "name": "Apple Cinnamon Smoothie",
+      "image-url": "/res/img/apple-cinnamon-smoothie.jpg",
+      "description": "Warm spiced apple smoothie with creamy yogurt base.",
+      "price": 24.99,
+      "category": "smoothies"
+    },
+    {
+      "name": "Beef Tripe Dumplings",
+      "image-url": "/res/img/beef-tripe-with-dumpling.jpg",
+      "description": "Traditional tripe stew with herb-infused dumplings in broth.",
+      "price": 39.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Celery Apple Carrot Juice",
+      "image-url": "/res/img/celery-apple-and-carrot-juice.jpg",
+      "description": "Crunchy vegetable juice with apple sweetness and carrot earthiness.",
+      "price": 6.75,
+      "category": "smoothies"
+    },
+    {
+      "name": "Creamy Samp",
+      "image-url": "/res/img/creamy-samp.jpg",
+      "description": "Slow-cooked African corn kernels in rich creamy sauce.",
+      "price": 29.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Ham Cheese Roll",
+      "image-url": "/res/img/ham-and-cheese-roll.jpg",
+      "description": "Thinly sliced ham and cheese wrapped in fresh pastry.",
+      "price": 6.95,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Hearty Vegetable Salad",
+      "image-url": "/res/img/hearty-vegetable-salad.jpg",
+      "description": "Robust salad with roasted root vegetables and grain base.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": " pap  & Leritho / Chothlo",
+      "image-url": "/res/img/leritho-chotlo.jpg",
+      "description": "pap and Shredded Beef",
+      "price": 44.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Melon Mint Celery Juice",
+      "image-url": "/res/img/melon-mint-and-celery-juice.jpg",
+      "description": "Cooling melon and celery with refreshing mint finish.",
+      "price": 6.25,
+      "category": "smoothies"
+    },
+    {
+      "name": "Pap with Ox Liver",
+      "image-url": "/res/img/pap-and-ox-liver.jpg",
+      "description": "Traditional maize porridge paired with savory fried liver.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Savoury Platter",
+      "image-url": "/res/img/savoury-platter.jpg",
+      "description": "Assortment of cured meats, cheeses, and artisanal breads.",
+      "price": 279.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Scrambled Egg Avo Sandwich",
+      "image-url": "/res/img/scrambled-egg-avo-and-cherry-tomato-open-sandwich.jpg",
+      "description": "Creamy avocado and fluffy eggs on artisan bread.",
+      "price": 8.25,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Tuna Sandwich",
+      "image-url": "/res/img/tuna-sandwich-makeover.jpg",
+      "description": "Flaked tuna with crisp celery and light mayo dressing.",
+      "price": 7.95,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Beet Carrot Apple Juice",
+      "image-url": "/res/img/beet-carrot-apple-juice.jpg",
+      "description": "Earth-sweet blend of root vegetables with apple crispness.",
+      "price": 6.5,
+      "category": "smoothies"
+    },
+    {
+      "name": "Chicken Stew",
+      "image-url": "/res/img/chicken-stew.jpg",
+      "description": "Comforting chicken simmered in herb-infused tomato-based sauce.",
+      "price": 11.25,
+      "category": "main meal"
+    },
+    {
+      "name": "Corn Salsa",
+      "image-url": "/res/img/corn-salsa.jpg",
+      "description": "Sweet corn with peppers, onions, and cilantro lime dressing.",
+      "price": 5.5,
+      "category": "main meal"
+    },
+    {
+      "name": "Cream Tea Scone",
+      "image-url": "/res/img/cream-tea-scones-strawberry.jpg",
+      "description": "Traditional buttery scone served with jam and clotted cream.",
+      "price": 19.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Ginger Banana Smoothie",
+      "image-url": "/res/img/ginger-banana-smoothie.jpg",
+      "description": "Creamy banana with spicy ginger kick and honey sweetness.",
+      "price": 24.99,
+      "category": "smoothies"
+    },
+    {
+      "name": "Grilled Peanuts",
+      "image-url": "/res/img/grilled-peanuts.jpg",
+      "description": "Freshly roasted peanuts with sea salt and smoky flavor.",
+      "price": 4.25,
+      "category": "main meal"
+    },
+    {
+      "name": "Healthy Coleslaw",
+      "image-url": "/res/img/healthy-coleslaw-salad.jpg",
+      "description": "Crisp cabbage and carrots in light yogurt-based dressing.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "House Salad",
+      "image-url": "/res/img/house-salad.jpg",
+      "description": "Signature mix of seasonal greens with house dressing.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Marinated Vegetable Salad",
+      "image-url": "/res/img/marinated-vegetable-salad.jpg",
+      "description": "Garden vegetables marinated in herb-infused oil and vinegar.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Peach Carrot Ginger Juice",
+      "image-url": "/res/img/peach-carrot-ginger-juice.jpg",
+      "description": "Stone fruit sweetness balanced with carrot earthiness and ginger.",
+      "price": 6.95,
+      "category": "smoothies"
+    },
+    {
+      "name": "Sandwich Platter",
+      "image-url": "/res/img/sandwich-platter.jpg",
+      "description": "Assorted gourmet sandwiches featuring premium meats and cheeses.",
+      "price": 279.99,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Shredded Beef Sandwich",
+      "image-url": "/res/img/shredded-beef-sandwich.jpg",
+      "description": "Slow-cooked pulled beef with tangy barbecue sauce on bun.",
+      "price": 34.99,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Strawberry Ginger Smoothie",
+      "image-url": "/res/img/strawberry-ginger-smoothie.jpeg.jpg",
+      "description": "Sweet berries paired with warm ginger and citrus notes.",
+      "price": 24.99,
+      "category": "smoothies"
+    },
+    {
+      "name": "Taco Pasta Salad",
+      "image-url": "/res/img/taco-pasta-salad.jpg",
+      "description": "Mexican-inspired pasta with seasoned beef, beans, and corn.",
+      "price": 34.99,
+      "category": "main meal"
+    },
+    {
+      "name": "Boiled Egg Mayo Sandwich",
+      "image-url": "/res/img/boiled-egg-mayo-sandwich.jpg",
+      "description": "Creamy egg salad with fresh herbs on whole grain.",
+      "price": 14.99,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Healthy Cheese Avo Sandwich",
+      "image-url": "/res/img/healthy-cheese-and-avo-sandwich.jpg",
+      "description": "Sliced avocado with artisan cheese and sprouted bread.",
+      "price": 8.5,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Healthy Cheese Tomato Sandwich",
+      "image-url": "/res/img/healthy-cheese-and-tomato-sandwich.jpg",
+      "description": "Vine-ripened tomatoes with fresh mozzarella on ciabatta.",
+      "price": 7.95,
+      "category": "sandwiches"
+    },
+    {
+      "name": "Nut Mix",
+      "image-url": "/res/img/nuts.jpg",
+      "description": "Artisanal blend of roasted nuts with sea salt.",
+      "price": 4.95,
+      "category": "main meal"
+    }
+  ]
+}

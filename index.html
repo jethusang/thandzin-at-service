@@ -7,12 +7,8 @@
   <meta name="keywords" content="burger, burger website, juice, juice website" />
   <meta name="description" content="word best first food restaurant services in our web site" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-
-
   <title>Thandzin At Service</title>
 
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="icon/css/all.min.css">
 
@@ -23,22 +19,51 @@
 
   <link rel="stylesheet" href="style.css" type="text/css">
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-  </style>
   <link rel="shortcut icon" href="image/Thandzin-at-service-logo-white.png" type="image/x-icon">
-
 
 </head>
 
 <body>
-  <!--start-header-section-->
+
+
+  <div class="modal fade order-modal" id="orderCheckModal" tabindex="-1" role="dialog" aria-labelledby="orderCheckModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="orderCheckModalLabel">Check Your Order</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <p>How would you like to check your order?</p>
+          <div class="d-flex justify-content-center mb-3">
+            <i class="fas fa-phone-alt fa-3x text-success mr-3"></i>
+            <i class="fab fa-whatsapp fa-3x text-success"></i>
+          </div>
+          <p class="text-muted">We're here to assist you!</p>
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-call" onclick="window.location.href='tel:0731972528'">
+            <i class="fas fa-phone-alt mr-2"></i>Call Now
+          </button>
+          <button type="button" class="btn btn-whatsapp" onclick="window.open('https://wa.me/27731972528', '_blank')">
+            <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+          </button>
+          <button type="button" class="btn btn-cancel" data-dismiss="modal">
+            <i class="fas fa-times mr-2"></i>Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <section class="header-section">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand navbar1st" href="#"> <img src="image/Thandzin-at-service-logo-white.png"
             style="width: 100px;" alt=""></a>
-        <a class="navbar-brand navbar2nd" href="#">Thandzin At Service</a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,33 +75,30 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/menu-items.html">deals</a>
+              <a class="nav-link" href="/menu.html">deals</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#menu">menu</a>
+              <a class="nav-link" href="/menu.html">menu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#order">Order a Meal</a>
             </li>
             <li class="nav-item">
-              <span class=" nav-link delivery" href=""><i class="fas fa-phone"></i> check your order<P class="d-inline">
-                  073 197 2528</P></span>
+              <span class="nav-link delivery" href="#" data-toggle="modal" data-target="#orderCheckModal">
+                <i class="fas fa-phone"></i> check your order
+                <P class="d-inline">073 197 2528</P>
+              </span>
             </li>
           </ul>
         </div>
       </div>
-
     </nav>
   </section>
-  <!--end-header-section-->
 
-  <!--sub-header-section-->
   <section class="sub-header">
     <img src="image/header101.png" alt="nowork">
   </section>
-  <!--end-sub-header-section-->
 
-  <!--order-section-->
   <section class="container order  mt-5 mb-5">
     <div class="row">
       <div class="col-md-6 col-sm-12 ">
@@ -85,7 +107,7 @@
           <p>today's special</p>
 
           <h1 class="h11">A Touch of Home <br /> Combo Meals</h1>
-          <button class="btn-sm bg-danger button1 mt-5">order now</button>
+          <button class="btn-sm bg-danger button1 mt-5" onclick="window.location.href='menu.html'">order now</button>
         </div>
 
       </div>
@@ -96,15 +118,13 @@
         </div>
         <div class="col-md-12 image3 ">
           <p>what's hot</p>
-          <h1 class="h13">Desserts & Snacks</h1>
+          <h1 class="h13">Sandwiches</h1> 
         </div>
       </div>
 
     </div>
   </section>
-  <!--end-order-section-->
 
-  <!--choose-section-->
   <section class="choose">
     <div class="container">
       <div class="row">
@@ -114,7 +134,8 @@
         </div>
 
         <div class="col-md-12 information blinking-border high-light text-center">
-          <p><i class="fas fa-map-marker logo1" style="color:#EFBC00"></i> Find Us in Sol Plaatje University Cafeteria</p>
+          <p><i class="fas fa-map-marker logo1" style="color:#EFBC00"></i> Find Us in Sol Plaatje University Cafeteria
+          </p>
           <p>All <span>Lunch orders</span> must be placed the day before or latest by 8am same day : <span> collection
               or delivery @12:30 - 14:30</span></p>
           <p>All <span>Dinner orders</span> must be placed the day before or latest by 11 am same day : <span>collection
@@ -130,7 +151,7 @@
               <p class="cp22">Refresh and Revitalize! Dive into our vibrant selection of freshly blended smoothies
                 bursting with natural flavors and healthy ingredients. From fruity delights to creamy indulgences, find
                 the perfect boost for your day.</p>
-              <button class="btn-sm btn-danger buor">order now</button>
+              <button class="btn-sm btn-danger primary-btn" onclick="window.location.href='menu.html'">order now</button>
             </div>
 
             <div class="col-md-4">
@@ -139,16 +160,14 @@
               <p class="cp22">Savor Authentic Flavors! Experience the heartwarming taste of traditional home-style
                 cooking. Our carefully crafted dishes bring you the comforting and delicious tastes you know and love.
               </p>
-              <button class="btn-sm btn-danger buor">order now</button>
+              <button class="btn-sm btn-danger primary-btn" onclick="window.location.href='menu.html'">order now</button>
             </div>
 
             <div class="col-md-4">
-              <img class="mt-2-img" src="image/dessert-and-snacks-category.png" alt="">
-              <h2 class="ch22">Desserts & Snacks</h2>
-              <p class="cp22">Indulge Your Sweet Cravings! Treat yourself to our delightful array of desserts and
-                satisfying snacks. From sweet temptations to savory bites, discover the perfect ending to your meal or a
-                tasty pick-me-up.</p>
-              <button class="btn-sm btn-danger buor">order now</button>
+              <img class="mt-1-img" src="/res/img/club-sandwich-image.png" alt="">
+              <h2 class="ch22">Sandwiches</h2>
+              <p class="cp22">Satisfy Your Hunger! Enjoy our freshly made sandwiches with premium ingredients. From classic favorites to gourmet creations, we have the perfect handheld meal for any time of day.</p> <!-- Updated description -->
+              <button class="btn-sm  primary-btn" onclick="window.location.href='menu.html'">order now</button>
             </div>
           </div>
         </div>
@@ -156,13 +175,12 @@
       </div>
     </div>
   </section>
-  <!--end-choose-section-->
-  <!--menu-->
+
   <section class="menu" id="menu">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="mh11">check <img src="image/Thandzin-at-service-logo.png" alt=""> menu</h1>
+          <h1 class="mh11">check Our Menu</h1>
         </div>
         <div class="col-md-12 ">
           <div class="row  justify-content-around">
@@ -232,9 +250,7 @@
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
                       <span>01:</span>Beef Tripe <span>/</span> Inhloko <span><b>+</b><br>
-                      </span> Pap <span>/</span> Dumpling <span><b>+</b> <br>
-                      </span> Water <span>/</span> Coke <span>/</span> Smoothie <span></span>
-                      Coffee
+                      </span> Pap <span>/</span> Dumpling <span>
                     </div>
                     <div class="col-3 usad">
                       R34.99
@@ -246,8 +262,7 @@
                     <div class="col-9 text-left">
                       <span>02:</span> Leritho <span>/</span> Chotlo <span><b>+</b> <br></span> Pap <span>/</span>
                       Dumbling
-                      <span>/</span> Samp <span>/</span> Mashed potatoes <span><b>+</b></span> Water <span>/</span> Coke
-                      <span>/</span>Tea
+                      <span>/</span> Samp <span>/</span> Mashed potatoes <span>
                     </div>
                     <div class="col-3 usad">
                       R39.99
@@ -259,8 +274,7 @@
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
                       <span>03:</span>Beef <span>/</span> Chicken Stew <span>+</span> <br>
-                      Rice <span>/</span> Samp<span>/</span> Pap Dumpling<span>+</span>
-                      <br> Water <span>/</span> Coke<span>/</span> Smoothie<span>/</span>Tea
+                      Rice <span>/</span> Samp<span>/</span> Pap Dumpling
                     </div>
                     <div class="col-3 usad">
                       R49.99
@@ -271,8 +285,6 @@
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
                       <span>04:</span> OX Liver <span>+ <br></span> Pap <span>/</span> Mashed Potatoes
-                      <span>+</span><br>
-                      Water<span>/</span>Coke <span>/</span> Smoothie <span>/</span>Coffee <span>/</span> Tea
                     </div>
                     <div class="col-3 usad">
                       R34.99
@@ -282,9 +294,7 @@
                 <li class="list-group-item">
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
-                      <span>05:</span> Uphuthu <span>+</span><br> Maas or Milk <span>+</span><br> Water
-                      <span>/</span>Coke
-                      <span>/</span> Smoothie <span>/</span>Coffee <span>/</span>Tea
+                      <span>05:</span> Uphuthu <span>+</span><br> Maas or Milk 
                     </div>
                     <div class="col-3 usad">
                       R24.99
@@ -295,8 +305,7 @@
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
                       <span>06:</span> Grill Beef <span>/</span> Chicken <span>/</span>Wors <span>+</span> <br> Pap
-                      <span>/</span>Rolls <span>+</span> <br> Water <span>/</span> Coke <span>/</span> Smoothie
-                      <span>/</span> Coffee <span>/</span> Tea
+                      <span>/</span>Rolls 
                     </div>
                     <div class="col-3 usad">
                       R14.99
@@ -313,20 +322,20 @@
                 <li class="list-group-item">
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
-                      <span>01:</span>Nuts & Peanut pack from
+                      <span>01:</span>Chicken Mayo Sandwich
                     </div>
                     <div class="col-3 usad">
-                      R 6.99
+                      R 24.99
                     </div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
-                      <span>02:</span> Scones
+                      <span>02:</span> Cheese & Tomato Sandwich
                     </div>
                     <div class="col-3 usad">
-                      from R9.99
+                      R19.99
                     </div>
 
                   </div>
@@ -334,40 +343,40 @@
                 <li class="list-group-item">
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
-                      <span>03:</span> Fruit & Vegetable Medley
+                      <span>03:</span> Breakfast Sandwich
                     </div>
                     <div class="col-3 usad">
-                      R39.99
+                      R29.99
                     </div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
-                      <span>04:</span> Dried fruit pack
+                      <span>04:</span> Club Sandwich
                     </div>
                     <div class="col-3 usad">
-                      R14,99
+                      R34.99
                     </div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
-                      <span>05:</span> Vetkoek from
+                      <span>05:</span> Veggie Delight Sandwich
                     </div>
                     <div class="col-3 usad">
-                      R2.99
+                      R22.99
                     </div>
                   </div>
                 </li>
                 <li class="list-group-item">
                   <div class="row justify-content-around">
                     <div class="col-9 text-left">
-                      <span>06:</span> Mini Desserts /cake of the day
+                      <span>06:</span> Beef & Cheese Sandwich
                     </div>
                     <div class="col-3 usad">
-                      R14.99
+                      R29.99
                     </div>
                   </div>
                 </li>
@@ -381,8 +390,7 @@
     </div>
 
   </section>
-  <!--end-menu-->
-  <!--reserve-table-->
+
   <section class="retable" id="order">
     <div class="container">
       <div class="row justify-content-center">
@@ -391,57 +399,61 @@
         </div>
         <div class="col-md-6 text-center">
           <div class="form">
-            <!-- <input type="text" class="fast" placeholder="Fast Name">
-            <input type="text" class="last" placeholder="Last Name">
-            <input type="email" class="email" placeholder="E Mail">
-            <input type="number" class="number" placeholder="Number Of Peo">
-            <input type="text" class="timing" placeholder="timing">
-            <input type="date" class="date" placeholder="Select Date">
-            <input type="text" class="special" placeholder="Any special instructions"> -->
-            <button class="btn-sm btn-danger resrrveta">Order a meal</button>
+            <button class="btn-sm resrrveta" onclick="window.location.href='menu.html'" style="margin-bottom: 20px;">Order a meal</button>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!--end-reserve-table-->
-  <!--footer-section-->
   <section class="footer">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-7 text-center">
           <span class="pizza"><img src="image/Thandzin-at-service-logo-white.png" style="width: 200px;"
               alt=""></span><br />
-          <span class="map"><i class="fas fa-map-marker logo1"></i> 24-26 Scanlan St, New Park, Kimberley, 8301</span>
-          <!-- <span class="phone"><i class="fas fa-phone-alt logo1"></i> 073 197 2528</span> -->
-          <span class="phone"><i class="fab fa-whatsapp logo1"></i> 073 197 2528</span>
+          <span class="map"><i class="fas fa-map-marker logo1"></i> 24-26 Scanlan St, New Park, Kimberley, 8301</span> <br>
+          <span class="phone"><i class="fab fa-whatsapp logo1"></i> 073 197 2528</span> <br>
           <span class="enve"><i class="fas fa-envelope logo1"></i> infothandzinatservice@.com</span>
           <br />
           <div class="bofooter">
 
           </div>
-          <span class="whatsapp"><i class="fab fa-whatsapp"></i></span>
-          <span class="face"><i class="fab fa-facebook-f"></i></span>
-          <span class="twitt"><i class="fab fa-twitter"></i></span>
-          <span class="insta"><i class="fab fa-instagram"></i></span>
-          <!-- <span class="youtube"><i class="fab fa-youtube"></i></span> -->
+          <a href="" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="" class="face"><i class="fab fa-facebook-f"></i></a></i>
+          <a href="" class="twitt"><i class="fab fa-twitter"></i></a></i>
+          <a href="" class="insta"><i class="fab fa-instagram"></i></a>
           <div class="bofooter">
 
           </div>
-          <p class="footerfo">copyright &copy; JE, All Rights Reserved</p>
+          <p class="footerfo">copyright &copy; Thandzin At Service, All Rights Reserved</p>
         </div>
       </div>
     </div>
   </section>
-  <!--end-footer-section-->
-
-
 
   <script type="text/javascript" src="icon/js/fontawesome.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth < 992) {
+            const collapse = new bootstrap.Collapse(navbarCollapse, {
+              toggle: false
+            });
+            collapse.hide();
+          }
+        });
+      });
+    });
+  </script>
 </body>
 
 </html>
